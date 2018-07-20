@@ -21,7 +21,7 @@ var kittens = ["Milo", "Otis", "Garfield"];
 
 var kittens = ["Milo", "Otis", "Garfield"];
   function appendKitten(name) {
-  var moreKittens = kittens.push(name);
+  var moreKittens = kittens.splice(3, 0, name);
   console.log(moreKittens);
 }
 
