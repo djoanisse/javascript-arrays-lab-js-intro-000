@@ -19,7 +19,7 @@ var kittens = ["Milo", "Otis", "Garfield"];
   kittens.shift(1);
 }
 
-//var kittens = ["Milo", "Otis", "Garfield"];
+var kittens = ["Milo", "Otis", "Garfield"];
 var moreKittens = kittens.push(name);
 function appendKitten(name) {
   return new Array;
