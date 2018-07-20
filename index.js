@@ -30,4 +30,3 @@ var kittens = ["Milo", "Otis", "Garfield"];
   var moreKittens = kittens.splice(0, 0, name);
   return moreKittens
 }
-
