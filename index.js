@@ -20,9 +20,9 @@ var kittens = ["Milo", "Otis", "Garfield"];
 }
 
 var kittens = ["Milo", "Otis", "Garfield"];
-  function appendKitten(name) {
-  var moreKittens = kittens.splice(3, 0, name);
-  console.log(moreKittens);
+  //function appendKitten(name) {
+  var moreKittens = kittens.concat(name);
+  return moreKittens;
 }
 
 var kittens = ["Milo", "Otis", "Garfield"];
