@@ -22,7 +22,7 @@ var kittens = ["Milo", "Otis", "Garfield"];
 var kittens = ["Milo", "Otis", "Garfield"];
   //function appendKitten(name) {
   var moreKittens = kittens.concat(name);
-  return moreKittens;
+  moreKittens;
 }
 
 var kittens = ["Milo", "Otis", "Garfield"];
