@@ -20,8 +20,8 @@ var kittens = ["Milo", "Otis", "Garfield"];
 }
 
 var kittens = ["Milo", "Otis", "Garfield"];
-var moreKittens = kittens.push(name);
-function appendKitten(name) {
+  function appendKitten(name) {
+  var moreKittens = kittens.push(name);
   console.log(moreKittens);
 }
 
