@@ -28,7 +28,6 @@ var kittens = ["Milo", "Otis", "Garfield"];
 var kittens = ["Milo", "Otis", "Garfield"];
   function prependKitten(name) {
   var moreKittens = [name, ...kittens];
-  //kittens.splice(3, 0, name);
   return moreKittens;
 }
 
