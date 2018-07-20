@@ -27,6 +27,6 @@ var kittens = ["Milo", "Otis", "Garfield"];
 
 var kittens = ["Milo", "Otis", "Garfield"];
   function prependKitten(name) {
-  var moreKittens = kittens.concat(2, 0, name);
+  var moreKittens = kittens.concat(3, 0, name);
   return moreKittens;
 }
