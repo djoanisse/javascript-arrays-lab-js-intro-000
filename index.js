@@ -22,7 +22,7 @@ var kittens = ["Milo", "Otis", "Garfield"];
 //var kittens = ["Milo", "Otis", "Garfield"];
 var moreKittens = kittens.push(name);
 function appendKitten(name) {
-  console.log(moreKittens);
+  return(moreKittens);
 }
 
 var kittens = ["Milo", "Otis", "Garfield"];
