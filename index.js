@@ -36,3 +36,9 @@ var kittens = ["Milo", "Otis", "Garfield"];
     var moreKittens = kittens.slice(0,2);
     return moreKittens;
 }
+
+var kittens = ["Milo", "Otis", "Garfield"];
+  function removeFirstKitten() {
+    var moreKittens = kittens.slice(1,2);
+    return moreKittens;
+}
