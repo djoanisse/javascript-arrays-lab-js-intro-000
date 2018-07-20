@@ -31,3 +31,7 @@ var kittens = ["Milo", "Otis", "Garfield"];
   //kittens.splice(3, 0, name);
   return moreKittens;
 }
+
+var kittens = ["Milo", "Otis", "Garfield"];
+  function removeLastKitten() {
+    
